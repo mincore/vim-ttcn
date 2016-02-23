@@ -1,0 +1,23 @@
+Based on:
+ttcn-syntax:
+    http://www.vim.org/scripts/script.php?script_id=753
+
+    Folds: If the variable "g:ttcn_fold" is defined (e.g. by ":let g:ttcn_fold = 1" in your .vimrc file), folds will automatically be defined for each {...} block.
+
+    Highlight: If the variable "g:ttcn_hl_naming_convention" (e.g. by ":let g:ttcn_hl_naming_convention = 1" in your .vimrc file), Language elements following generic naming conventions will be highlighted.
+    This is not standardized but noted on http://www.ttcn-3.org/NamingConventions.htm.
+
+ttcn-indent:
+    http://www.vim.org/scripts/script.php?script_id=754
+
+ttcn-ftplugin:
+    http://www.vim.org/scripts/script.php?script_id=793
+    You should put settings that are specific to TTCN in this file.
+
+ttcn-dict:
+    http://www.vim.org/scripts/script.php?script_id=767
+    Keyword completion for TTCN-3.
+    In insert mode you hit ctrl-x ctrl-k to get suggestions of keywords that could complete the currently typed word.
+    Note: ctrl-x ctrl-k is the Vim built-in method for dictionary completion; check out vimtip #91 and vimtip #102 for cool stuff and adjustments you can make!
+
+For information about TTCN-3, see http://www.etsi.org.
